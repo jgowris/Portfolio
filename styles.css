@@ -1,0 +1,218 @@
+body {
+  background-color: rgb(14, 28, 47);
+  color: white;
+  font-family: monospace;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+  /* position: fixed; */
+}
+
+.hangingLineContainer {
+  width: 300px;
+  height: 90px;
+  /* border: 1px solid orange; */
+}
+.hangingLine {
+  width: 120px;
+  height: 30px;
+  border-left: 0.5px solid #8892b0;
+  border-right: 0.5px solid #8892b0;
+  margin-left: 80px;
+}
+
+.emailHolder {
+  height: 40px;
+  width: 250px;
+  border: 0.5px solid #8892b0;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.emailHolder:hover {
+  border: 0.5px solid aquamarine;
+}
+
+.emailHolder > p:hover {
+  color: aquamarine;
+}
+
+.navItems,
+.linkItems {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 15px;
+  color: #8892b0;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+li {
+  list-style: none;
+  margin-right: 30px;
+  margin-top: 20px;
+  /* background-color: green; */
+}
+
+li:hover {
+  color: aquamarine;
+}
+span {
+  color: aquamarine;
+}
+button {
+  background-color: rgb(14, 28, 47);
+  color: aquamarine;
+  border: 1px solid aquamarine;
+  border-radius: 5px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-family: monospace;
+  font-size: 15px;
+  padding: 10px 25px;
+}
+button:hover {
+  color: aquamarine;
+  border: 1px solid aquamarine;
+  background-color: rgb(17, 84, 57);
+}
+
+.mainContent {
+  display: flex;
+  flex-flow: row;
+  position: absolute;
+  margin: 100px auto;
+}
+
+.iconLinksOuter {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50px;
+  height: 550px;
+  margin: 100px 20px;
+  position: fixed;
+}
+
+.iconLinks {
+  width: 50px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 0.5px solid #8892b0;
+}
+.devicon-github-original,
+.devicon-linkedin-plain,
+.devicon-codepen-plain {
+  /* background-color: rgb(14, 28, 47); */
+  color: #8892b0;
+  margin: 20px;
+  font-size: 20px;
+  color: #8892b0;
+}
+
+.devicon-github-original:hover,
+.devicon-linkedin-plain:hover,
+.devicon-codepen-plain:hover {
+  color: aquamarine;
+}
+
+.posterStand {
+  width: 1px;
+  border-right: 0.15px solid #8892b0;
+  height: 400px;
+}
+.introSection {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.sayHello {
+  font-size: 18px;
+  color: aquamarine;
+  margin-top: 30px;
+}
+.sayName {
+  font-size: 60px;
+  letter-spacing: 2px;
+  color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin: 10px 0;
+}
+
+.profileTitle {
+  color: #8892b0;
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin: 20px 0;
+}
+.profileIntro {
+  color: #8892b0;
+  /* letter-spacing: 1px; */
+  font-family: "Calibri", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
+    sans-serif;
+  margin: 20px 0;
+  width: 100%;
+  font-size: 20px;
+}
+
+.productHighlight,
+.devHighlight {
+  color: aquamarine;
+}
+
+.allAboutMe {
+  margin: 0 auto;
+  margin-top: 300px;
+  width: 70%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.aboutMeHeading {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 50px;
+  color: #afb9da;
+}
+
+.aboutMeHeadingNumb {
+  font-family: monospace;
+  font-weight: 200;
+}
+
+.aboutMeLine {
+  width: 300px;
+  border-bottom: 0.15px solid #8892b0;
+  margin-left: 20px;
+}
+
+.aboutMeContent {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #8892b0;
+  display: flex;
+  flex-flow: row;
+}
+
+.aboutMeWriteup {
+  width: 60%;
+}
+.aboutMePicture {
+  color: white;
+  width: 40%;
+}
