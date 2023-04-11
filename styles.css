@@ -9,6 +9,10 @@ header {
   display: flex;
   flex-flow: row;
   /* position: fixed; */
+  /* top: 0;
+  right: 0;
+  z-index: 1;
+  margin-bottom: 10px; */
 }
 
 .hangingLineContainer {
@@ -49,10 +53,11 @@ header {
   margin-top: 10px;
   margin-left: 150px;
 }
-
-li {
+/* 
+li { */
+.linkItems {
   list-style: none;
-  margin-right: 30px;
+  margin-right: 20px;
   margin-top: 20px;
   /* background-color: green; */
 }
@@ -63,6 +68,12 @@ li:hover {
 span {
   color: aquamarine;
 }
+
+.navLinkItems {
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
 button {
   background-color: rgb(14, 28, 47);
   color: aquamarine;
@@ -70,6 +81,7 @@ button {
   border-radius: 5px;
   margin-top: 18px;
   margin-bottom: 18px;
+  margin-right: 20px;
   font-family: monospace;
   font-size: 15px;
   padding: 10px 25px;
@@ -148,7 +160,7 @@ button:hover {
 
 .profileTitle {
   color: #8892b0;
-  font-size: 60px;
+  font-size: 40px;
   letter-spacing: 2px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -169,7 +181,12 @@ button:hover {
   color: aquamarine;
 }
 
-.allAboutMe {
+/* SECTION HEADING */
+.allAboutMe,
+.workedSection,
+.thingsBuilt,
+.otherThingsBuilt,
+.getInTouch {
   margin: 0 auto;
   margin-top: 300px;
   width: 70%;
@@ -177,7 +194,12 @@ button:hover {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.aboutMeHeading {
+/* HEADING DISPLAY AND LINE*/
+.aboutMeHeading,
+.workedHeading,
+.builtHeading,
+.othersBuilt,
+.touchHeading {
   width: 100%;
   font-size: 30px;
   font-weight: 600;
@@ -194,25 +216,61 @@ button:hover {
   font-weight: 200;
 }
 
-.aboutMeLine {
+.aboutMeLine,
+.workedLine {
   width: 300px;
   border-bottom: 0.15px solid #8892b0;
   margin-left: 20px;
 }
 
+/* CONTENT AND PICTURE */
 .aboutMeContent {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 30px;
   color: #8892b0;
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
 }
 
 .aboutMeWriteup {
   width: 60%;
+  display: flex;
+  flex-flow: column;
 }
+
+.techSkillColOne,
+.techSkillColTwo,
+.techSkillColThree {
+  width: 25%;
+  /* background-color: green; */
+}
+
+.techSkillColOneul {
+  list-style-type: square;
+  margin: 10px;
+  padding: 0;
+  /* background-color: green; */
+}
+
+.techSkillColTwoul {
+  /* list-style-type: square; */
+  margin: 10px;
+  padding: 0;
+  /* background-color: orange; */
+}
+
+.techSkillColThreeul {
+  /* list-style-type: square; */
+  margin: 10px;
+  padding: 0;
+  /* background-color: gray; */
+}
+
 .aboutMePicture {
   color: white;
   width: 40%;
+}
+.techSkill {
+  margin-top: 0;
 }
