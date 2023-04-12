@@ -198,8 +198,7 @@ button:hover {
 .aboutMeHeading,
 .workedHeading,
 .builtHeading,
-.othersBuilt,
-.touchHeading {
+.othersBuilt {
   width: 100%;
   font-size: 30px;
   font-weight: 600;
@@ -397,4 +396,21 @@ button:hover {
 
 .projTech {
   font-family: monospace;
+}
+
+.footerText {
+  color: aquamarine;
+}
+
+.touchHeading {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.viewMore {
+  margin-top: 30px;
+  margin-left: 375px;
+  justify-content: center;
 }
