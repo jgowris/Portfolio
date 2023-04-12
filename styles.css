@@ -276,8 +276,8 @@ button:hover {
 
 .aboutMePictureImg {
   color: white;
-  width: 150px;
-  height: 180px;
+  width: 180px;
+  height: 200px;
   margin-left: 20px;
 }
 .techSkill {
@@ -307,20 +307,14 @@ button:hover {
   height: 300px;
 }
 
-.proContent,
-.proContentTwo {
+.proContent {
   width: 50%;
   text-align: right;
 }
 
 .proContentTwo {
-  z-index: 2;
+  margin-left: 50px;
 }
-
-/* .proContentTwo {
-  width: 50%;
-  text-align: right;
-} */
 
 .featProject,
 .featProjectTwo {
@@ -349,4 +343,58 @@ button:hover {
 .projNameTwo,
 .projDetailsTwo {
   text-align: left;
+}
+
+.othersContent {
+  display: flex;
+  flex-flow: row wrap;
+}
+.otherMoreContent {
+  background-color: rgb(24, 43, 67);
+  border-radius: 10px;
+  width: 30%;
+  margin: 1%;
+  /* background-color: #afb9da3f; */
+}
+
+.otherMoreContent:hover,
+.otherMoreContent:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.iconsShow {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  /* align-items: center; */
+}
+.projExec,
+.indlProj {
+  width: 30px;
+  height: 30px;
+  /* background-color: color; */
+}
+
+.projExec {
+  margin: 15px 10px 0 0;
+}
+
+.projCard {
+  margin: 20px;
+}
+
+.projNameCard {
+  font-weight: bold;
+}
+
+.projDetCard {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 22px;
+  font-size: 15px;
+  color: #8892b0;
+}
+
+.projTech {
+  font-family: monospace;
 }
