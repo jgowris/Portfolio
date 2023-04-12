@@ -214,16 +214,19 @@ button:hover {
 .workedHeadingNumb,
 .buildHeadingNumb,
 .othersBuiltNumb,
-.touchHeadingNumb {
+.touchHead {
   font-family: monospace;
   font-weight: 200;
 }
 
+.touchHead {
+  color: aquamarine;
+  font-size: 15px;
+}
 .aboutMeLine,
 .workedLine,
 .builtLine,
-.othersLine,
-.touchLine {
+.othersLine {
   width: 300px;
   border-bottom: 0.15px solid #8892b0;
   margin-left: 20px;
@@ -398,8 +401,10 @@ button:hover {
   font-family: monospace;
 }
 
-.footerText {
-  color: aquamarine;
+.viewMore {
+  margin-top: 30px;
+  margin-left: 375px;
+  justify-content: center;
 }
 
 .touchHeading {
@@ -409,8 +414,32 @@ button:hover {
   align-items: center;
 }
 
-.viewMore {
-  margin-top: 30px;
-  margin-left: 375px;
-  justify-content: center;
+.getInTouchTitle {
+  /* text-align: center; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #afb9da;
+}
+
+.helloBtn {
+  margin-right: 0;
+}
+.footerText {
+  color: aquamarine;
+  margin-top: 200px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.getInTouchCont {
+  color: #8892b0;
+  /* letter-spacing: 1px; */
+  font-family: "Calibri", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
+    sans-serif;
+  margin: 20px 0;
+  width: 100%;
+  font-size: 20px;
 }
