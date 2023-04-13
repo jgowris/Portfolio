@@ -17,15 +17,26 @@
       <div class="hangingLineContainer">
         <div class="hangingLine"></div>
         <div class="emailHolder">
-          <p>jgowris@gmail.com</p>
+          <a href="mailto:jgowris@gmail.com" class="emlLink"
+            >jgowris@gmail.com</a
+          >
+          <!-- <p>jgowris@gmail.com</p> -->
         </div>
       </div>
       <nav class="navItems">
         <ul class="linkItems">
-          <li class="navLinkItems"><span>01.</span> About</li>
-          <li class="navLinkItems"><span>02.</span> Experience</li>
-          <li class="navLinkItems"><span>03.</span> Work</li>
-          <li class="navLinkItems"><span>04.</span> Contact</li>
+          <li class="navLinkItems">
+            <a href="#aboutMeHeading"><span>01.</span>About</a>
+          </li>
+          <li class="navLinkItems">
+            <a href="#workedSection"><span>02.</span>Experience</a>
+          </li>
+          <li class="navLinkItems">
+            <a href="#thingsBuilt"><span>03.</span>Work</a>
+          </li>
+          <li class="navLinkItems">
+            <a href="#getInTouch"><span>04.</span>Contact</a>
+          </li>
         </ul>
         <button>Resume</button>
       </nav>
@@ -57,7 +68,7 @@
           </p>
         </section>
         <section class="allAboutMe">
-          <div class="aboutMeHeading">
+          <div class="aboutMeHeading" id="aboutMeHeading">
             <div><span class="aboutMeHeadingNumb">01.</span> About Me</div>
             <div class="aboutMeLine"></div>
           </div>
@@ -100,7 +111,7 @@
             </div>
           </div>
         </section>
-        <section class="workedSection">
+        <section class="workedSection" id="workedSection">
           <div class="workedHeading">
             <div>
               <span class="workedHeadingNumb">02.</span> Where I've Worked
@@ -119,7 +130,7 @@
             </div>
           </div>
         </section>
-        <section class="thingsBuilt">
+        <section class="thingsBuilt" id="thingsBuilt">
           <div class="builtHeading">
             <div>
               <span class="buildHeadingNumb">03.</span> Some Things I've Built
@@ -181,7 +192,7 @@
           </div>
         </section>
 
-        <section class="otherThingsBuilt">
+        <section class="otherThingsBuilt" id="otherThingsBuilt">
           <div class="othersBuilt">
             <div>
               <span class="othersBuiltNumb">04.</span> Other Noteworthy Projects
@@ -334,7 +345,7 @@
           </div>
         </section>
 
-        <section class="getInTouch">
+        <section class="getInTouch" id="getInTouch">
           <div class="touchHeading">
             <p class="touchHead">05. What's Next</p>
             <p class="getInTouchTitle">Get In Touch</p>
@@ -344,7 +355,10 @@
               for any question you might have or should you just want to drop a
               "Hello!".
             </p>
-            <button class="helloBtn">Say Hello!</button>
+            <button>
+              <a href="mailto:jgowris@gmail.com" class="helloBtn" />
+              Say Hello!
+            </button>
           </div>
         </section>
         <footer>

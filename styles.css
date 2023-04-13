@@ -44,6 +44,11 @@ header {
   color: aquamarine;
 }
 
+.emlLink {
+  text-decoration: none;
+  color: aquamarine;
+}
+
 .navItems,
 .linkItems {
   display: flex;
@@ -51,7 +56,7 @@ header {
   font-size: 15px;
   color: #8892b0;
   margin-top: 10px;
-  margin-left: 130px;
+  margin-left: 120px;
 }
 /* 
 li { */
@@ -69,9 +74,20 @@ span {
   color: aquamarine;
 }
 
-.navLinkItems {
+.navLinkItems,
+.navLinkItems:active,
+.navLinkItems:focus,
+.navLinkItems:hover,
+.navLinkItems:visited,
+a {
   margin-right: 30px;
   margin-top: 10px;
+  text-decoration: none;
+  color: #8892b0;
+}
+
+a:hover {
+  color: aquamarine;
 }
 
 button {
@@ -147,7 +163,7 @@ button:hover {
 .sayHello {
   font-size: 18px;
   color: aquamarine;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 .sayName {
   font-size: 60px;
@@ -425,7 +441,10 @@ button:hover {
 
 .helloBtn {
   margin-right: 0;
+  text-decoration: none;
+  color: aquamarine;
 }
+
 .footerText {
   color: aquamarine;
   margin-top: 200px;
