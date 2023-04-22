@@ -268,6 +268,13 @@ button:hover {
   flex-flow: column;
 }
 
+.workedContent {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #8892b0;
+}
+
 .techSkillColOne,
 .techSkillColTwo,
 .techSkillColThree {
